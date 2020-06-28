@@ -7,7 +7,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 h1,
@@ -679,7 +679,7 @@ footer button {
 
 @media screen and (max-width: 667px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .nav-link {
@@ -785,5 +785,23 @@ footer button {
     border-top: 2px solid #fff;
     margin: 1rem !important;
     padding: 1rem !important;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  .menu ul {
+    margin: .1rem auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
   }
 }
