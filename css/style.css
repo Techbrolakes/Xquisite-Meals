@@ -678,6 +678,10 @@ footer button {
 }
 
 @media screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .nav-link {
     background-color: #222831 !important;
     color: #fff;
@@ -719,11 +723,23 @@ footer button {
     font-family: "lato", cursive;
   }
 
+  .menu .food {
+    display: block;
+  }
+
+  .all img {
+    margin-left: 2rem;
+  }
+
 
 
   .menu .las {
     color: #000000;
     font-size: 1.3rem;
+  }
+
+  .menu h1 {
+    font-size: 2rem !important;
   }
 
   .menu ul li {
@@ -737,16 +753,6 @@ footer button {
     transition: 1s ease-in-out all;
   }
 
-  .food-details h6 {
-    line-height: 1.6;
-    font-size: 1.2rem;
-  }
-
-  .food-details p {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    font-weight: bold;
-  }
 
   .number-animation {
     display: none;
@@ -762,7 +768,7 @@ footer button {
 
   .menu ul {
     margin: .1rem auto;
-    width: 40%;
+    width: 100%;
     text-align: center;
     display: block;
     align-items: center;
@@ -771,8 +777,7 @@ footer button {
   }
 
   .food-details h6 {
-    font-size: 0.7rem !important;
-    font-weight: bold;
+    font-size: 1.2rem !important;
     line-height: 1.6;
   }
 
