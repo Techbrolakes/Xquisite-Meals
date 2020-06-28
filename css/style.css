@@ -723,23 +723,23 @@ footer button {
 
   .menu .las {
     color: #000000;
-    font-size: .8rem;
+    font-size: 1.3rem;
   }
 
   .menu ul li {
-    text-align: left;
+    text-align: center;
     overflow-x: hidden;
     font-family: "Piedra", cursive;
     font-size: .8rem;
     display: flex;
-    padding: 0.1rem 3rem;
+    padding: 0.1rem 1.5rem;
     border: 1px solid #c70039;
     transition: 1s ease-in-out all;
   }
 
   .food-details h6 {
     line-height: 1.6;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .food-details p {
@@ -758,6 +758,22 @@ footer button {
     text-transform: capitalize;
 
 
+  }
+
+  .menu ul {
+    margin: .1rem auto;
+    width: 40%;
+    text-align: center;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .food-details h6 {
+    font-size: 0.7rem !important;
+    font-weight: bold;
+    line-height: 1.6;
   }
 
   footer .col-lg-4 {
