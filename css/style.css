@@ -104,26 +104,10 @@ p {
   padding: 5rem;
 }
 
-hr.hr1 {
-  position: relative;
-  border: 1px solid black;
-  width: 50%;
-  text-align: left;
-  margin-left: 5rem;
-}
 
-hr.hr2 {
-  border: 1px solid black;
-  width: 50%;
-  text-align: left;
-  margin-left: 3rem;
-}
 
 .side {
-  position: absolute;
-  top: 0%;
-  left: 70%;
-  z-index: 1;
+  text-align: center;
 }
 
 .image-box {
@@ -334,7 +318,7 @@ hr.hr2 {
   padding: 3rem 1.4rem;
   border-radius: 10px;
   color: #000;
-  font-size: 3rem !important;
+  font-size: 1rem !important;
 }
 
 .testimonial-text p {
@@ -693,7 +677,7 @@ footer button {
 
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 667px) {
   .nav-link {
     background-color: #222831 !important;
     color: #fff;
@@ -726,13 +710,6 @@ footer button {
     width: 20%;
   }
 
-  .about-us h1 {
-    position: absolute;
-    top: 3%;
-    left: 70%;
-    font-size: 1.6rem;
-    z-index: 1;
-  }
 
   .content {
     width: 100%;
@@ -742,24 +719,45 @@ footer button {
     font-family: "lato", cursive;
   }
 
-  .menu ul li {
-    font-family: "Piedra", cursive;
-    font-size: 1.2rem;
-    display: flex;
-    padding: 0.3rem 0.6rem;
-    border: 1px solid #f17808;
-  }
+
 
   .menu .las {
     color: #000000;
-    font-size: 1.5rem;
+    font-size: .8rem;
   }
 
-  .number-animation h1 {
-    color: #fff;
-    max-width: 100%;
+  .menu ul li {
+    text-align: left;
+    overflow-x: hidden;
+    font-family: "Piedra", cursive;
+    font-size: .8rem;
+    display: flex;
+    padding: 0.1rem 3rem;
+    border: 1px solid #c70039;
+    transition: 1s ease-in-out all;
+  }
+
+  .food-details h6 {
+    line-height: 1.6;
     font-size: 0.9rem;
-    text-align: center;
+  }
+
+  .food-details p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .number-animation {
+    display: none;
+  }
+
+  .testimonial-item p {
+    font-size: .6rem;
+    font-family: "lato", cursive;
+    text-transform: capitalize;
+
+
   }
 
   footer .col-lg-4 {
